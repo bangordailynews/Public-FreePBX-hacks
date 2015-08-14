@@ -5,7 +5,7 @@
 //Require this file on line 324 of /var/www/html/admin/modules/xepm/provisioners/yealink.php
 //(Inside the generate function)
 //Like so:
-//require( __DIR__ . '/../../../../bdn/global_provisioning.php' );
+//require( __DIR__ . '/../../../../hacks/global_provisioning.php' );
 //
 //This is only for Yealink phones, but you could easily adapt it for other brands
 
