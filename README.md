@@ -2,6 +2,12 @@
 
 We're big fans of Asterisk and FreePBX, but the documentation and user interface can be lacking. So we're documenting some of the things we're doing to make the system a little easier to use.
 
+## Some of our tricks include
+* **global-provisioning.php**: We got tired of having (and forgetting) to set the same variables in half a dozen different templates, and the Endpoint Manager doesn't actually expose all the variables you could have access to. Our global provisioning dropin allows us to identify variables we want to use globally and gives us the ability to set variables that the Endpoint Manager doesn't yet support
+* **pickup-groups.php** Pickup and call groups (see below for an explanation) are hard to manage. So this simple page helps us visualize those groups.
+* **directory** We wanted to auto-generate a directory and push it out to everybody's phones. With the help of the the global provisioning script, we can do that.
+
+
 Below is a general overview of the Asterisk/FreePBX system.
 
 # General schema
