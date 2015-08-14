@@ -1,0 +1,8 @@
+<root_favorite_set>
+        <item id_name="localdirectory" display_name="Local Directory" priority="2" enable="1" />
+        <item id_name="history" display_name="History" priority="1" enable="0" />
+        <item id_name="networkcalllog" display_name="Network CallLog" priority="3" enable="0" />
+        <item id_name="remotedirectory" display_name="Company Directory" priority="4" enable="1" />
+        <item id_name="ldap" display_name="LDAP" priority="5" enable="0" />
+        <item id_name="broadsoftdirectory" display_name="Broadsoft Directory" priority="6" enable="0" />
+</root_favorite_set>
