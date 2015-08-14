@@ -20,10 +20,10 @@ $global_provisioning = array(
 	'features.voice_mail_tone_enable' => 'disable',
 	'voice.tone.stutter' => 0,
 	//Auto-generate a company directory
-	'remote_phonebook.data.1.url' => 'http://url/hacks/directory.php',
+	'remote_phonebook.data.1.url' => 'http://url/hacks/directory/directory.php',
 	'remote_phonebook.data.1.name' => 'Directory',
-	'directory_setting.url' => 'http://url/hacks/favorite_setting.xml',
-	'super_search.url' => 'http://url/hacks/favorite_setting.xml',
+	'directory_setting.url' => 'http://url/hacks/directory/favorite_setting.xml',
+	'super_search.url' => 'http://url/hacks/directory/favorite_setting.xml',
 	'features.remote_phonebook.enable' => 1,
 	//Voicemail access number
 	'voice_mail.number.1' =>  '*97',
